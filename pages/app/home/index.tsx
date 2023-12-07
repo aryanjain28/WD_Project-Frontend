@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { TopBar } from "../../../components/TopBar";
-import { DashboardCards } from "./DashboardCard";
+import DashboardCards from "./DashboardCard";
 
 const Home = () => {
   const [loaded, setLoaded] = useState(false);

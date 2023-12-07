@@ -55,7 +55,7 @@ const dashboardCardData = [
   },
 ];
 
-export const DashboardCards = () => {
+const DashboardCards = () => {
   const router = useRouter();
 
   return (
@@ -96,3 +96,5 @@ export const DashboardCards = () => {
     </Grid>
   );
 };
+
+export default DashboardCards;
