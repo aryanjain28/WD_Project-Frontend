@@ -29,7 +29,7 @@ const LoginForm = () => {
       flexDirection="column"
       alignItems="center"
       justifyContent="center"
-      py={40}
+      py={20}
     >
       <Box
         display="flex"
