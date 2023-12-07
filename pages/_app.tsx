@@ -17,7 +17,7 @@ export const queryClient = new QueryClient({
   },
 });
 
-const AuthWrapper: React.FC = ({ children }) => {
+const AuthWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const router = useRouter();
 
   let accessToken: string | null = null;
